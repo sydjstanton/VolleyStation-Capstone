@@ -14,9 +14,7 @@ captured the effects of the serving team and score differential. Our results dem
 integrated approach improves probability accuracy in women’s collegiate volleyball compared to
 past research. The findings underscored the effectiveness of our probability tree visualization in
 enhancing in-game coaching by providing data-driven insights into win probabilities across different
-match scores.
-
-# Code Implementation 
+match scores. 
 
 # Final Results Summary 
 To evaluate the performance of our proposed model, we first compared our logistic regression to our GAM. Both models were built into the Markov chain framework to calculate point-by-point transition probabilities and overall set win probabilities. The logistic regression served as a baseline model, whereas the GAM provided a more flexible model that could capture the nonlinear effects of score difference and serving status. Because of that flexibility, we opted to use the GAM in our final
